@@ -80,8 +80,9 @@ response_sample shows a sample response
 
 ## Running the Project
 Clone the repository:
-git clone https://github.com/CrimsonRed89/Tesla-Stocks-Prediction-LSTM
+```git clone https://github.com/CrimsonRed89/Tesla-Stocks-Prediction-LSTM
 cd <repository-directory>
+```
 
 Set up your virtual environment and install requirements:
 ```python -m venv venv
@@ -90,7 +91,8 @@ pip install -r requirements.txt
 ```
 
 Run the FastAPI application:
-uvicorn app:app --reload
+```uvicorn app:app --reload
+```
 
 Access the API documentation at http://127.0.0.1:8000/docs to explore the available endpoints.
 
