@@ -80,18 +80,21 @@ response_sample shows a sample response
 
 ## Running the Project
 Clone the repository:
-```git clone https://github.com/CrimsonRed89/Tesla-Stocks-Prediction-LSTM
+```
+git clone https://github.com/CrimsonRed89/Tesla-Stocks-Prediction-LSTM
 cd <repository-directory>
 ```
 
 Set up your virtual environment and install requirements:
-```python -m venv venv
+```
+python -m venv venv
 venv\Scripts\activate.bat
 pip install -r requirements.txt
 ```
 
 Run the FastAPI application:
-```uvicorn app:app --reload
+```
+uvicorn app:app --reload
 ```
 
 
