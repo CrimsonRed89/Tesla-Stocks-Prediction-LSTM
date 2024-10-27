@@ -17,7 +17,7 @@ This project demonstrates the use of Long Short-Term Memory (LSTM) networks, a t
 ## Overview
 
 Stock price prediction is a time-series forecasting problem that involves analyzing patterns in historical stock prices to predict future movements. This project implements a deep learning approach using LSTM, a powerful architecture designed for learning long-term dependencies in sequential data. The predictions are further served via an API using FastAPI, allowing for seamless interaction with the model.
-
+ 
 ## Objective
 
 The main objective of this project is to predict the future stock prices of Tesla Inc. using historical data. By utilizing the `Close` prices over the past 60 days, the model attempts to forecast the next closing price. The model is integrated into a FastAPI application, where users can input historical data and receive stock price predictions in real-time.
